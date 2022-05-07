@@ -75,8 +75,16 @@ def who():
     
     if person != '1' and person != '2' and person != '3':
         print("Error.")
+        
+    ### Add functionality to ask user if they want to retry for each error.
+        
+        
     else:
         token+= person
+    
+    
+    ### Improve the following input request by filtering presented options based on person. E.g. user selects 1 for first person, they will be presented with only the options s for ich, or p for wir, not all the other persons as this is confusing and redundant.
+    
     
     number= input("Please enter s for singular (ich, du, er, sie, Sie) or p for plural (wir, ihr, sie, Sie): ")
     if number != 's' and number != 'p':
@@ -148,6 +156,8 @@ def collate(prepositions, words):
     final_phrase= preposition + ' ' + possessive + ' ' + word
     print(final_phrase)
     return final_phrase
+
+### add functionality to display all possible combinations of preposition + possessive + noun
 
 collate(prepositions, words)
         
