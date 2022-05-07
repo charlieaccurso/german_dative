@@ -34,7 +34,7 @@ dative_persons=     {'1s':['meinem','meiner','meinen'],
 # key-value pairs of token : list of declensions (m, f/pl, n)
 # M is index 0, F or PL is index 1, N is index 2
 accusative_persons= {'1s':['meinen','meine','mein'],
-                     '2s':['deinen','deine','dein'],
+                     '2si':['deinen','deine','dein'],
                      '3sm':['seinen','seine','sein'],
                      '3sf':['ihren','ihre','ihr'],
                      '2sf':['Ihren','Ihre','Ihr'],
